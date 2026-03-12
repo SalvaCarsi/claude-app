@@ -12,8 +12,8 @@ export default function Home() {
   }, []);
 
   return (
-    <main style={{ display: "flex", justifyContent: "center", alignItems: "center", minHeight: "100vh" }}>
-      <h1 style={{ fontSize: "3rem" }}>{message ?? "Cargando..."}</h1>
+    <main className="flex justify-center items-center min-h-screen">
+      <h1 className="text-5xl">{message ?? "Cargando..."}</h1>
     </main>
   );
 }

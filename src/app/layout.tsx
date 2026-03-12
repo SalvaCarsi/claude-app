@@ -1,3 +1,5 @@
+import "./globals.css";
+
 export const metadata = {
   title: "Claude App",
   description: "Hello World con Next.js",
