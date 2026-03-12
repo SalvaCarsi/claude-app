@@ -1,3 +1,3 @@
 export async function GET() {
-  return Response.json({ message: "bienvenido usuario logeado" });
+  return Response.json({ message: "bienvenido Ramon" });
 }
